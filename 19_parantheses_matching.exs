@@ -26,8 +26,6 @@ defmodule Solution do
   def traverse_parantheses(par_str, curr_stack, max, index) do
     curr_value = String.at(par_str, 0)
     cut_str = String.slice(par_str, 1..-1)
-    IO.inspect(curr_stack)
-    IO.inspect(index)
 
     cond do
       curr_value == "(" ->

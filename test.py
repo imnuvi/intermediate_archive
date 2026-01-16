@@ -18,7 +18,12 @@
 
 import itertools
 
+def jj():
+    print("test only bruh")
 
 lst = [1,1,1,2,3,4,4,4,4,5,6,7,7,7]
 
 newl = itertools.groupby()
+
+
+jj()
